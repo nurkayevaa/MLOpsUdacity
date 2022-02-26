@@ -128,7 +128,8 @@ def get_inference_pipeline(args):
     ])
 
     ############# YOUR CODE HERE
-    numeric_transformer = # USE make_pipeline to create a pipeline containing a SimpleImputer using strategy=median
+    numeric_transformer = make_pipeline(SimpleImputer(), StandardScaler())
+    # USE make_pipeline to create a pipeline containing a SimpleImputer using strategy=median
                           # and a StandardScaler (you can use the default options for the latter)
 
     # Textual ("nlp") preprocessing pipeline
