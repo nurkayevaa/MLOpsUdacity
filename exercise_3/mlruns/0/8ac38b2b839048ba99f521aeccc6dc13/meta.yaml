@@ -1,0 +1,15 @@
+artifact_uri: file:///home/anel/MLOpsUdacity/exercise_3/mlruns/0/8ac38b2b839048ba99f521aeccc6dc13/artifacts
+end_time: 1645569021658
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 8ac38b2b839048ba99f521aeccc6dc13
+run_uuid: 8ac38b2b839048ba99f521aeccc6dc13
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1645568870222
+status: 3
+tags: []
+user_id: anel

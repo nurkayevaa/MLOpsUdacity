@@ -1,0 +1,162 @@
+2022-02-22 14:30:07,656 INFO    MainThread:21093 [internal.py:wandb_internal():86] W&B internal server running at pid: 21093, started at: 2022-02-22 14:30:07.655955
+2022-02-22 14:30:07,658 INFO    WriterThread:21093 [datastore.py:open_for_write():77] open: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/run-3kr6xijr.wandb
+2022-02-22 14:30:07,658 DEBUG   SenderThread:21093 [sender.py:send():185] send: header
+2022-02-22 14:30:07,659 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: check_version
+2022-02-22 14:30:07,659 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: check_version
+2022-02-22 14:30:07,737 DEBUG   SenderThread:21093 [sender.py:send():185] send: run
+2022-02-22 14:30:07,886 INFO    SenderThread:21093 [dir_watcher.py:__init__():169] watching files in: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files
+2022-02-22 14:30:07,886 INFO    SenderThread:21093 [sender.py:_start_run_threads():746] run started: 3kr6xijr with start time 1645569007
+2022-02-22 14:30:07,886 DEBUG   SenderThread:21093 [sender.py:send():185] send: summary
+2022-02-22 14:30:07,887 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: run_start
+2022-02-22 14:30:07,899 INFO    SenderThread:21093 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-02-22 14:30:08,346 DEBUG   HandlerThread:21093 [meta.py:__init__():40] meta init
+2022-02-22 14:30:08,346 DEBUG   HandlerThread:21093 [meta.py:__init__():54] meta init done
+2022-02-22 14:30:08,346 DEBUG   HandlerThread:21093 [meta.py:probe():211] probe
+2022-02-22 14:30:08,356 DEBUG   HandlerThread:21093 [meta.py:_setup_git():201] setup git
+2022-02-22 14:30:08,363 DEBUG   HandlerThread:21093 [meta.py:_setup_git():208] setup git done
+2022-02-22 14:30:08,363 DEBUG   HandlerThread:21093 [meta.py:_save_pip():58] save pip
+2022-02-22 14:30:08,363 DEBUG   HandlerThread:21093 [meta.py:_save_pip():72] save pip done
+2022-02-22 14:30:08,364 DEBUG   HandlerThread:21093 [meta.py:_save_conda():79] save conda
+2022-02-22 14:30:08,887 INFO    Thread-8  :21093 [dir_watcher.py:_on_file_created():217] file/dir created: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/requirements.txt
+2022-02-22 14:30:08,887 INFO    Thread-8  :21093 [dir_watcher.py:_on_file_created():217] file/dir created: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/wandb-summary.json
+2022-02-22 14:30:08,887 INFO    Thread-8  :21093 [dir_watcher.py:_on_file_created():217] file/dir created: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/conda-environment.yaml
+2022-02-22 14:30:09,121 DEBUG   HandlerThread:21093 [meta.py:_save_conda():87] save conda done
+2022-02-22 14:30:09,121 DEBUG   HandlerThread:21093 [meta.py:probe():249] probe done
+2022-02-22 14:30:09,123 DEBUG   SenderThread:21093 [sender.py:send():185] send: files
+2022-02-22 14:30:09,123 INFO    SenderThread:21093 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2022-02-22 14:30:09,128 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: stop_status
+2022-02-22 14:30:09,128 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: stop_status
+2022-02-22 14:30:09,798 INFO    Thread-11 :21093 [upload_job.py:push():137] Uploaded file /tmp/tmpmpz1zekgwandb/27oqvf82-wandb-metadata.json
+2022-02-22 14:30:09,886 INFO    Thread-8  :21093 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/conda-environment.yaml
+2022-02-22 14:30:09,887 INFO    Thread-8  :21093 [dir_watcher.py:_on_file_created():217] file/dir created: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/output.log
+2022-02-22 14:30:09,887 INFO    Thread-8  :21093 [dir_watcher.py:_on_file_created():217] file/dir created: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/wandb-metadata.json
+2022-02-22 14:30:11,887 INFO    Thread-8  :21093 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/output.log
+2022-02-22 14:30:15,415 DEBUG   SenderThread:21093 [sender.py:send():185] send: files
+2022-02-22 14:30:15,416 INFO    SenderThread:21093 [sender.py:_save_file():879] saving file media/images/t-SNE_0_8bd41b0901d662a1c5ad.png with policy now
+2022-02-22 14:30:15,417 DEBUG   SenderThread:21093 [sender.py:send():185] send: history
+2022-02-22 14:30:15,417 DEBUG   SenderThread:21093 [sender.py:send():185] send: summary
+2022-02-22 14:30:15,419 INFO    SenderThread:21093 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-02-22 14:30:15,563 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: log_artifact
+2022-02-22 14:30:15,563 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: log_artifact
+2022-02-22 14:30:15,890 INFO    Thread-8  :21093 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/wandb-summary.json
+2022-02-22 14:30:15,890 INFO    Thread-8  :21093 [dir_watcher.py:_on_file_created():217] file/dir created: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/media/images/t-SNE_0_8bd41b0901d662a1c5ad.png
+2022-02-22 14:30:15,890 INFO    Thread-8  :21093 [dir_watcher.py:_on_file_created():217] file/dir created: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/media
+2022-02-22 14:30:15,891 INFO    Thread-8  :21093 [dir_watcher.py:_on_file_created():217] file/dir created: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/media/images
+2022-02-22 14:30:16,188 INFO    Thread-12 :21093 [upload_job.py:push():137] Uploaded file /tmp/tmpmpz1zekgwandb/2ixfecfr-media/images/t-SNE_0_8bd41b0901d662a1c5ad.png
+2022-02-22 14:30:16,853 INFO    Thread-14 :21093 [upload_job.py:push():95] Uploaded file /home/anel/.cache/wandb/artifacts/obj/md5/e4/f03b8de1c2f793b0084467ca7fedda
+2022-02-22 14:30:17,774 INFO    SenderThread:21093 [sender.py:send_request_log_artifact():907] logged artifact clean_data.csv - {'id': 'QXJ0aWZhY3Q6ODgzODc4Nzk=', 'digest': '418fe18325f4f6af1fa946737cc3f71d', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzNzA2MjQz', 'latestArtifact': None}, 'version': 'latest'}
+2022-02-22 14:30:17,890 INFO    Thread-8  :21093 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/output.log
+2022-02-22 14:30:18,027 DEBUG   SenderThread:21093 [sender.py:send():185] send: telemetry
+2022-02-22 14:30:18,027 DEBUG   SenderThread:21093 [sender.py:send():185] send: exit
+2022-02-22 14:30:18,027 INFO    SenderThread:21093 [sender.py:send_exit():294] handling exit code: 0
+2022-02-22 14:30:18,027 INFO    SenderThread:21093 [sender.py:send_exit():296] handling runtime: 10
+2022-02-22 14:30:18,028 INFO    SenderThread:21093 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-02-22 14:30:18,028 INFO    SenderThread:21093 [sender.py:send_exit():306] send defer
+2022-02-22 14:30:18,028 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: poll_exit
+2022-02-22 14:30:18,028 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: defer
+2022-02-22 14:30:18,029 INFO    HandlerThread:21093 [handler.py:handle_request_defer():143] handle defer: 0
+2022-02-22 14:30:18,029 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: poll_exit
+2022-02-22 14:30:18,029 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: defer
+2022-02-22 14:30:18,029 INFO    SenderThread:21093 [sender.py:send_request_defer():315] handle sender defer: 0
+2022-02-22 14:30:18,029 INFO    SenderThread:21093 [sender.py:transition_state():319] send defer: 1
+2022-02-22 14:30:18,029 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: defer
+2022-02-22 14:30:18,029 INFO    HandlerThread:21093 [handler.py:handle_request_defer():143] handle defer: 1
+2022-02-22 14:30:18,098 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: defer
+2022-02-22 14:30:18,098 INFO    SenderThread:21093 [sender.py:send_request_defer():315] handle sender defer: 1
+2022-02-22 14:30:18,098 INFO    SenderThread:21093 [sender.py:transition_state():319] send defer: 2
+2022-02-22 14:30:18,098 DEBUG   SenderThread:21093 [sender.py:send():185] send: stats
+2022-02-22 14:30:18,098 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: defer
+2022-02-22 14:30:18,098 INFO    HandlerThread:21093 [handler.py:handle_request_defer():143] handle defer: 2
+2022-02-22 14:30:18,099 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: defer
+2022-02-22 14:30:18,099 INFO    SenderThread:21093 [sender.py:send_request_defer():315] handle sender defer: 2
+2022-02-22 14:30:18,099 INFO    SenderThread:21093 [sender.py:transition_state():319] send defer: 3
+2022-02-22 14:30:18,099 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: defer
+2022-02-22 14:30:18,099 INFO    HandlerThread:21093 [handler.py:handle_request_defer():143] handle defer: 3
+2022-02-22 14:30:18,099 DEBUG   SenderThread:21093 [sender.py:send():185] send: summary
+2022-02-22 14:30:18,100 INFO    SenderThread:21093 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-02-22 14:30:18,100 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: defer
+2022-02-22 14:30:18,100 INFO    SenderThread:21093 [sender.py:send_request_defer():315] handle sender defer: 3
+2022-02-22 14:30:18,100 INFO    SenderThread:21093 [sender.py:transition_state():319] send defer: 4
+2022-02-22 14:30:18,100 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: defer
+2022-02-22 14:30:18,100 INFO    HandlerThread:21093 [handler.py:handle_request_defer():143] handle defer: 4
+2022-02-22 14:30:18,100 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: defer
+2022-02-22 14:30:18,101 INFO    SenderThread:21093 [sender.py:send_request_defer():315] handle sender defer: 4
+2022-02-22 14:30:18,130 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: poll_exit
+2022-02-22 14:30:18,255 INFO    SenderThread:21093 [sender.py:transition_state():319] send defer: 5
+2022-02-22 14:30:18,255 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: poll_exit
+2022-02-22 14:30:18,256 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: defer
+2022-02-22 14:30:18,256 INFO    HandlerThread:21093 [handler.py:handle_request_defer():143] handle defer: 5
+2022-02-22 14:30:18,256 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: defer
+2022-02-22 14:30:18,256 INFO    SenderThread:21093 [sender.py:send_request_defer():315] handle sender defer: 5
+2022-02-22 14:30:18,256 INFO    SenderThread:21093 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-22 14:30:18,357 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: poll_exit
+2022-02-22 14:30:18,893 INFO    SenderThread:21093 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/wandb-summary.json
+2022-02-22 14:30:18,894 INFO    SenderThread:21093 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/config.yaml
+2022-02-22 14:30:18,895 INFO    SenderThread:21093 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/output.log
+2022-02-22 14:30:18,896 INFO    SenderThread:21093 [dir_watcher.py:finish():313] scan: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files
+2022-02-22 14:30:18,896 INFO    SenderThread:21093 [dir_watcher.py:finish():327] scan save: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/output.log output.log
+2022-02-22 14:30:18,897 INFO    SenderThread:21093 [dir_watcher.py:finish():327] scan save: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/conda-environment.yaml conda-environment.yaml
+2022-02-22 14:30:18,897 INFO    SenderThread:21093 [dir_watcher.py:finish():327] scan save: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/config.yaml config.yaml
+2022-02-22 14:30:18,905 INFO    SenderThread:21093 [dir_watcher.py:finish():327] scan save: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/wandb-metadata.json wandb-metadata.json
+2022-02-22 14:30:18,905 INFO    SenderThread:21093 [dir_watcher.py:finish():327] scan save: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/requirements.txt requirements.txt
+2022-02-22 14:30:18,910 INFO    SenderThread:21093 [dir_watcher.py:finish():327] scan save: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/wandb-summary.json wandb-summary.json
+2022-02-22 14:30:18,916 INFO    SenderThread:21093 [dir_watcher.py:finish():327] scan save: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/media/images/t-SNE_0_8bd41b0901d662a1c5ad.png media/images/t-SNE_0_8bd41b0901d662a1c5ad.png
+2022-02-22 14:30:18,916 INFO    SenderThread:21093 [sender.py:transition_state():319] send defer: 6
+2022-02-22 14:30:18,916 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: poll_exit
+2022-02-22 14:30:18,917 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: defer
+2022-02-22 14:30:18,917 INFO    HandlerThread:21093 [handler.py:handle_request_defer():143] handle defer: 6
+2022-02-22 14:30:18,917 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: defer
+2022-02-22 14:30:18,917 INFO    SenderThread:21093 [sender.py:send_request_defer():315] handle sender defer: 6
+2022-02-22 14:30:18,917 INFO    SenderThread:21093 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-22 14:30:19,018 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: poll_exit
+2022-02-22 14:30:19,018 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: poll_exit
+2022-02-22 14:30:19,120 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: poll_exit
+2022-02-22 14:30:19,121 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: poll_exit
+2022-02-22 14:30:19,222 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: poll_exit
+2022-02-22 14:30:19,222 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: poll_exit
+2022-02-22 14:30:19,324 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: poll_exit
+2022-02-22 14:30:19,324 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: poll_exit
+2022-02-22 14:30:19,425 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: poll_exit
+2022-02-22 14:30:19,426 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: poll_exit
+2022-02-22 14:30:19,500 INFO    Thread-16 :21093 [upload_job.py:push():137] Uploaded file /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/conda-environment.yaml
+2022-02-22 14:30:19,528 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: poll_exit
+2022-02-22 14:30:19,529 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: poll_exit
+2022-02-22 14:30:19,538 INFO    Thread-17 :21093 [upload_job.py:push():137] Uploaded file /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/config.yaml
+2022-02-22 14:30:19,564 INFO    Thread-18 :21093 [upload_job.py:push():137] Uploaded file /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/requirements.txt
+2022-02-22 14:30:19,566 INFO    Thread-15 :21093 [upload_job.py:push():137] Uploaded file /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/output.log
+2022-02-22 14:30:19,592 INFO    Thread-19 :21093 [upload_job.py:push():137] Uploaded file /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/files/wandb-summary.json
+2022-02-22 14:30:19,633 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: poll_exit
+2022-02-22 14:30:19,634 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: poll_exit
+2022-02-22 14:30:19,737 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: poll_exit
+2022-02-22 14:30:19,738 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: poll_exit
+2022-02-22 14:30:19,793 INFO    Thread-7  :21093 [sender.py:transition_state():319] send defer: 7
+2022-02-22 14:30:19,794 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: defer
+2022-02-22 14:30:19,794 INFO    HandlerThread:21093 [handler.py:handle_request_defer():143] handle defer: 7
+2022-02-22 14:30:19,795 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: defer
+2022-02-22 14:30:19,795 INFO    SenderThread:21093 [sender.py:send_request_defer():315] handle sender defer: 7
+2022-02-22 14:30:19,843 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: poll_exit
+2022-02-22 14:30:20,025 INFO    SenderThread:21093 [sender.py:transition_state():319] send defer: 8
+2022-02-22 14:30:20,026 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: poll_exit
+2022-02-22 14:30:20,028 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: defer
+2022-02-22 14:30:20,028 INFO    HandlerThread:21093 [handler.py:handle_request_defer():143] handle defer: 8
+2022-02-22 14:30:20,029 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: defer
+2022-02-22 14:30:20,029 INFO    SenderThread:21093 [sender.py:send_request_defer():315] handle sender defer: 8
+2022-02-22 14:30:20,030 INFO    SenderThread:21093 [sender.py:transition_state():319] send defer: 9
+2022-02-22 14:30:20,032 DEBUG   SenderThread:21093 [sender.py:send():185] send: final
+2022-02-22 14:30:20,034 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: defer
+2022-02-22 14:30:20,034 INFO    HandlerThread:21093 [handler.py:handle_request_defer():143] handle defer: 9
+2022-02-22 14:30:20,035 DEBUG   SenderThread:21093 [sender.py:send():185] send: footer
+2022-02-22 14:30:20,035 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: defer
+2022-02-22 14:30:20,036 INFO    SenderThread:21093 [sender.py:send_request_defer():315] handle sender defer: 9
+2022-02-22 14:30:20,131 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: poll_exit
+2022-02-22 14:30:20,132 DEBUG   SenderThread:21093 [sender.py:send_request():199] send_request: poll_exit
+2022-02-22 14:30:20,133 INFO    SenderThread:21093 [file_pusher.py:join():182] waiting for file pusher
+2022-02-22 14:30:20,263 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: get_summary
+2022-02-22 14:30:20,264 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: sampled_history
+2022-02-22 14:30:20,264 DEBUG   HandlerThread:21093 [handler.py:handle_request():126] handle_request: shutdown
+2022-02-22 14:30:20,264 INFO    HandlerThread:21093 [handler.py:finish():683] shutting down handler
+2022-02-22 14:30:21,037 INFO    WriterThread:21093 [datastore.py:close():281] close: /home/anel/MLOpsUdacity/exercise_3/process_data/wandb/run-20220222_143007-3kr6xijr/run-3kr6xijr.wandb
+2022-02-22 14:30:21,262 INFO    SenderThread:21093 [sender.py:finish():986] shutting down sender
+2022-02-22 14:30:21,262 INFO    SenderThread:21093 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-22 14:30:21,262 INFO    SenderThread:21093 [file_pusher.py:join():182] waiting for file pusher
+2022-02-22 14:30:21,265 INFO    MainThread:21093 [internal.py:handle_exit():76] Internal process exited

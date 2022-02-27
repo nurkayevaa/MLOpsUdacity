@@ -1,0 +1,33 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-02-23T01:56:45.739545",
+    "startedAt": "2022-02-23T01:56:44.775826",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "exercise_4/genres_mod.parquet:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "clean_data",
+        "--artifact_description",
+        "Data afer processing"
+    ],
+    "state": "running",
+    "program": "/home/anel/MLOpsUdacity/exercise_5/run.py",
+    "codePath": "exercise_5/run.py",
+    "git": {
+        "remote": "https://github.com/nurkayevaa/MLOpsUdacity",
+        "commit": "7ce54afc69c9f9ca1de19e1ea45facec4ff93c75"
+    },
+    "email": null,
+    "root": "/home/anel/MLOpsUdacity",
+    "host": "Laptop",
+    "username": "anel",
+    "executable": "/home/anel/miniconda3/envs/mlflow-7d78ed55c95b181e7c56fa062144a017795f28fa/bin/python"
+}

@@ -1,0 +1,33 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-02-23T00:31:56.072274",
+    "startedAt": "2022-02-23T00:31:53.950499",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "artifact",
+        "put",
+        "--name",
+        "exercise_4/genres_mod.parquet",
+        "--type",
+        "raw_data",
+        "--description",
+        "A modified version of the song dataset",
+        "genres_mod.parquet"
+    ],
+    "state": "running",
+    "program": "/home/anel/miniconda3/envs/download_data/bin/wandb",
+    "git": {
+        "remote": "https://github.com/nurkayevaa/MLOpsUdacity",
+        "commit": "535d6ffb50912a00928df2dca3d149198e3bc90c"
+    },
+    "email": null,
+    "root": "/home/anel/MLOpsUdacity",
+    "host": "Laptop",
+    "username": "anel",
+    "executable": "/home/anel/miniconda3/envs/download_data/bin/python"
+}
